@@ -1,0 +1,10 @@
+C--9--10+ yrs
+Python--9--10+ yrs
+Shell Scripting--9--10+ yrs
+JavaScript--4--2+ yrs
+Golang--4--2+ yrs
+RDBMS--5-- 5+ yrs
+Linux Apps Programming--7--5+ yrs
+MacOS App Programming--7--5+ yrs
+Podman(Docker, LXC etc.)--7--3+ yrs
+Machine Learning--2--1+ yrs

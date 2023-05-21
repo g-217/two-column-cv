@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Curriculum vitae</title>
+<style>
+html,body{
+    height:297mm;
+    width:210mm;
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  margin: 0 0 10px;
+}
+h3 {
+    font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.left_column {
+  float: left;
+  width: 35%;
+  padding: 10px;
+}
+
+.right_column {
+  float: right;
+  width: 65%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.box {
+  height: 10px;
+  width: 25px;
+  margin-top: 0px;
+  border: 2px solid black;
+  background-color: black;
+  display: inline-block;
+}
+
+.white {
+    background-color: white;
+}
+
+.line {
+  text-align: justify;
+  text-align-last: justify;
+  font-weight: bolder;
+}
+
+.line > .beginning {
+  float: left;
+  margin-right: 5px;
+}
+
+.line > .end {
+  float: right;
+  margin-left: 5px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="row">
+<div class="left_column" style="background-color:#aaa;">
+
+{{left}}
+
+{{skills}}
+
+</div>
+
+
+<div class="right_column" style="background-color:#ffffff;">
+
+{{right}}
+
+</div>
+</div>
+
+</body>
+</html>
