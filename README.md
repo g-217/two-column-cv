@@ -1,9 +1,6 @@
 # two-column-cv
 Alternate for latex based two column CV format.
-Idea is create left and right sections separately, and combine it using html.
 
-Update `contact.html`, `right.md`, and `skills.txt`, and just execute `python md2html.py`.
-It will update `index.html` and that can be printed into pdf etc. 
+![Resume Preview](https://htmlpreview.github.io/?https://github.com/g-217/two-column-cv/blob/main/template.html)
 
-![alt text](sample.png "Title")
 
