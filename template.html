@@ -1,114 +1,375 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Curriculum vitae</title>
-<style>
-html,body{
-    height:297mm;
-    width:210mm;
-    font-size: 16px;
-}
-h1, h2, h3, h4, h5, h6 {
-  color: #444;
-  margin: 0 0 10px;
-  font-size: 16px;
-}
+  <head>
+    <title>MARJORIE's Resume</title>
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
 
-th {
-    font-weight: bold;
-    font-size: 18px;
-}
+  <body>
+    <!-- Using the Skeleton.css to make two columns on my resume
+				the first column is about 30% of the page, while the second
+				column is about 70% of the page
+			  Sixteen columns take up the whole page-->
+    <div class="container sixteen columns">
+      <!--The left column - five columns of the total 16 (31% of the page)-->
+      <div class="five columns left_side">
+        <ul class="contactInfo">
+          <li class="">
+            <h2 class="top_page">MARJORIE D. MCGAHEY</h2>
+          </li>
+          <li class="top_contact contact">
+            (+1) 718-564-6972<img
+              class="icon"
+              src="images/phone_icon.jpg"
+              alt="phone icon"
+              width="23"
+            />
+          </li>
+          <li class="contact">
+            <a href="mailto:marjorie@jourrapide.com">marjorie@jourrapide.com</a>
+            <img
+              class="icon"
+              src="images/email_icon.jpg"
+              alt="email icon"
+              height="20"
+              width="20"
+            />
+          </li>
+          <li class="contact">
+            <a href="http://marjorie-info.me">http://marjorie-info.me</a>
+            <img
+              class="icon"
+              src="images/website_icon.jpg"
+              alt="email icon"
+              height="20"
+              width="20"
+            />
+          </li>
+          <li class="contact">
+            <a href="www.linkedin.com"
+              >www.linkedin.com/me</a
+            >
+            <img
+              class="icon"
+              src="images/linkedin.png"
+              alt="linkedin icon"
+              height="21"
+              width="23"
+            />
+          </li>
+          <li class="contact">
+            <a href="https://stackoverflow.com"
+              >stackoverflow.com/me</a
+            >
+            <img
+              class="icon"
+              src="images/stack_overflow_icon.png"
+              alt="stack_overflow icon"
+              height="21"
+              width="23"
+            />
+          </li>
+          <li class="contact">
+            <a href="https://github.com">github.com/me</a>
+            <img
+              class="icon"
+              src="images/github_icon.jpg"
+              alt="github icon"
+              height="21"
+              width="23"
+            />
+          </li>
+          <li class="contact">
+            <div class="address_top">
+              526 Longview Avenue, Brooklvn
+            </div>
+             NY 11226
+            <img
+              class="icon"
+              src="images/mail_icon.jpg"
+              alt="mail icon"
+              height="20"
+              width="22"
+            />
+          </li>
+        </ul>
 
-* {
-  box-sizing: border-box;
-}
+        <div class="small_section">
+          <h4>EDUCATION</h4>
+          <div class="education">
+            <div class="where">FOREIGN TRADE UNIVERSITY</div>
+            <div>SEP 2010 - JUNE 2015</div>
+            <div>Major: Economics and International Business</div>
+          </div>
+          <div class="education">
+            <div class="where">UNIVERSITY OF ECONOMICS</div>
+            <div>SEP 2012 - JUNE 2014</div>
+            <div>Major: Chief accountant</div>
+          </div>
+        </div>
+        <!--small_section-->
 
-.left_column {
-  float: left;
-  width: 35%;
-  padding: 10px;
-}
+        <div>
+          <h4>PRIMARY SKILLS</h4>
+          <!--spilt this into two columns to have the skills listed out
+							To fit within the five columns the columns have to be 2 and
+						  3 columns (using the skeleton)-->
+          <div>
+            <span class="where">C++, C</span>
+            <span class="left_padding_150px">10+ yrs</span>
+            <div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box white"></div>
+            </div>
+          </div>
+          <!-- End of C++ -->
+          <div>
+            <div>
+              <span class="where">Python</span>
+              <span class="left_padding_150px">10 + yrs</span>
+            </div>
+            <div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+            </div>
+          </div>
+          <!-- End of Python -->
+          <div>
+            <div>
+              <span class="where">MacOS Apps Development</span>
+              <span class="left_padding_20px">5+ yrs</span>
+            </div>
+            <div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+            </div>
+          </div>
+          <!-- End MacOS Apps Development -->
 
-.right_column {
-  float: right;
-  width: 65%;
-  padding: 10px;
-}
+          <div>
+            <div>
+              <span class="where">Windows Apps Development</span>
+              <span class="left_padding_10px">5 + yrs</span>
+            </div>
+            <div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+            </div>
+          </div>
+          <!-- End Windows Apps Development -->
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+          <div>
+            <div>
+              <span class="where">Linux Apps Development</span>
+              <span class="left_padding_20px">3 + yrs</span>
+            </div>
+            <div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+            </div>
+          </div>
+          <!-- End Linux Apps Development -->
 
+          <div>
+            <div>
+              <span class="where">micro-services</span>
+              <span class="left_padding_10px">2 + yrs</span>
+            </div>
+            <div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+            </div>
+          </div>
+          <!-- End micro-services -->
 
-.box {
-  height: 10px;
-  width: 25px;
-  margin-top: 0px;
-  border: 2px solid black;
-  background-color: black;
-  display: inline-block;
-}
+          <div>
+            <div>
+              <span class="where">distributed-computing</span>
+              <span class="left_padding_10px">2 + yrs</span>
+            </div>
+            <div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+            </div>
+          </div>
+          <!-- End micro-services -->
 
-.white {
-    background-color: white;
-}
+          <div>
+            <div>
+              <span class="where">Machine Learning</span>
+              <span class="left_padding_10px">1 + yrs</span>
+            </div>
+            <div>
+              <div class="box"></div>
+              <div class="box"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+              <div class="box white"></div>
+            </div>
+          </div>
+          <!-- End Machine Learning -->
+        </div>
+        <!--small_section-->
+      </div>
+      <!-- left_side -->
 
-.line {
-  text-align: justify;
-  text-align-last: justify;
-  font-weight: bolder;
-}
+      <!--The right column - 11 columns of the total 16 (68% of the page)-->
+      <!--This column is for my experience and jobs -->
+      <div class="eleven columns right_side">
+        <h3>
+          Take advantages of sales skills & experience and understanding
+          of types market to become a professional Sales Staff and bring a lot value to Customers.
+          Becoming a professional in marketing, going to work in dynamic working environment with
+          challenges to develop myself. From that, I will contribute to development of your Company.
+        </h3>
+        <div class="top">
+          <h3>WORK EXPERIENCE</h3>
 
-.line > .beginning {
-  float: left;
-  margin-right: 5px;
-}
+          <div>
+            <span class="where">Superstar Trader</span>
+            <span>THE TRADING COMPANY</span>
+            <span class="when">April 2020 - Present</span>
+            <ul>
+              <li>Accomplished trader with a proven track record of success within a prominent trading company.</li>
+              <li>Demonstrated exceptional skills in navigating the complexities of the market and leveraging opportunities for profitable outcomes.</li>
+              <li>Adept at analyzing market trends, identifying lucrative prospects, and executing strategic trades with precision.</li>
+              <li>Consistently achieved impressive financial results through a combination of astute decision-making, meticulous research, and disciplined risk management.</li>
+              <li>Possess an unwavering dedication to continuous learning and staying abreast of industry developments to maintain a competitive edge.</li>
+              <li>Recognized for exceptional problem-solving abilities, adaptability, and resilience in fast-paced and volatile trading environments.</li>
+              <li>Effective communicator and collaborator, adept at building strong relationships with clients, colleagues, and stakeholders.</li>
+              <li>Display a strong work ethic, unyielding commitment, and an insatiable drive for achieving outstanding results in the world of trading.</li>
+            </ul>
+          </div>
+          <!-- Current Job-->
 
-.line > .end {
-  float: right;
-  margin-left: 5px;
-}
-
-.footer {
-  text-align: center;
-  text-align-last: center;
-  font-weight: bolder;
-}
-
-.footer > .beginning {
-  float: left;
-  margin-right: 5px;
-}
-
-.footer > .end {
-  float: right;
-  margin-left: 5px;
-}
-
-
-</style>
-</head>
-<body>
-
-<div class="row">
-<div class="left_column" style="background-color:#aaa;">
-
-{{Contact}}
-
-{{skills}}
-
-</div>
-
-
-<div class="right_column" style="background-color:#ffffff;">
-
-{{right}}
-
-</div>
-</div>
-
-</body>
+          <div>
+            <span class="where">Market Researcher</span>
+            <span>IPSOS BUSINESS CO.</span>
+            <span class="when">Jan 2015 - Apr 2020</span>
+            <ul>
+              <li>Distinction as an accomplished market researcher, revered for driving strategic insights and informing critical business decisions.</li>
+              <li>Proficient in conducting comprehensive market analysis, utilizing a diverse range of research methodologies, and extracting actionable intelligence.</li>
+              <li>Demonstrated expertise in identifying emerging trends, consumer behavior patterns, and competitive landscapes to unlock untapped market potential.</li>
+              <li>Proven track record of delivering in-depth reports, encompassing market sizing, segmentation, and forecasting, that have guided successful product launches and market entry strategies.</li>
+              <li>Exceptional data interpretation skills, leveraging advanced analytics tools and techniques to extract meaningful insights and translate them into actionable recommendations.</li>
+              <li>Strong ability to synthesize complex information and distill it into concise, impactful summaries that effectively communicate findings to stakeholders at all levels.</li>
+              <li>Proficient in utilizing both quantitative and qualitative research methods, adept at conducting surveys, focus groups, and interviews to uncover valuable customer insights.</li>
+              <li>Known for meticulous attention to detail, ensuring accuracy and reliability of research findings to support informed decision-making.</li>
+              <li>Collaborative team player, adept at working cross-functionally with diverse stakeholders, including marketing, product development, and sales teams, to align research outcomes with organizational objectives.</li>
+              <li>Dedicated to staying abreast of market trends, industry developments, and emerging research methodologies to continuously enhance research capabilities and deliver superior results.</li>
+            </ul>
+          </div>
+          <!-- last Job-->
+        </div>
+        <!-- end section -->
+        <h3>SKILLS & TOOLS</h3>
+		<table>
+			<tr>
+				<td class="large_column">Relational Databases(RDBMS)</td>
+				<td>JavaScript</td>
+				<td>Xcode</td>
+				<td>Docker</td>
+			</tr>
+			<tr>
+				<td>Computer Networking</td>
+				<td>Rust lang</td>
+				<td>Visual Studio</td>
+				<td>Podman</td>
+			</tr>
+			<tr>
+				<td>MacOS, Linux Shell Scripting</td>
+				<td>Git</td>
+				<td>GNU make</td>
+				<td>localstack</td>
+			</tr>
+			<tr>
+				<td>C++ Template Metaprogramming</td>
+				<td>Jira</td>
+				<td>CMake</td>
+				<td>Nginx</td>
+			</tr>
+			<tr>
+				<td>GCC linker internals</td>
+				<td>Intel Vtune</td>
+			</tr>
+			<tr>
+				<td>boost-cpp</td>
+				<td>Valgrind</td>
+			</tr>
+		</table>
+          <!--three columns-->
+        </div>
+        <!-- End of container -->
+      </div>
+      <!--right_side-->
+    </div>
+    <!-- container -->
+  </body>
 </html>
